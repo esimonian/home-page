@@ -1,0 +1,61 @@
+/ First page, your photo and title
+#page-0.bb-item
+  .container
+    .row
+      .col-sm-12
+        .card-box
+          .row
+            .col-xs-12
+              .header-text.text-center
+                = image_tag 'dp.jpg', { :class => 'img-circle img', :alt => '' } 
+                %h2 Elizabeth Simonian
+                %p Developer
+                .social-links.header-links
+                  %ul
+                    %li
+                      %a{:href => ""}
+                        %i.fa.fa-facebook.facebook
+                    %li
+                      %a{:href => ""}
+                        %i.fa.fa-twitter.twitter
+                    %li
+                      %a{:href => ""}
+                        %i.fa.fa-google-plus.google-plus
+                    %li
+                      %a{:href => ""}
+                        %i.fa.fa-dribbble.dribbble
+          / /row
+          .row
+            .col-md-6.col-md-offset-1
+              .introduce
+                %h2.title About Me
+                %p Lorem ipsum
+            .col-md-5.col-xs-12
+              .presonal-inform
+                %ul.list-unstyled
+                  %li.clearfix
+                    %i.pe-7s-user
+                    %b Name:
+                    Jone Deo
+                  %li.clearfix
+                    %i.pe-7s-phone
+                    %b Phone:
+                    (123)_456_7890
+                  %li.clearfix
+                    %i.pe-7s-mail
+                    %b Email:
+                    Jondeo@email.com
+                  %li.clearfix
+                    %i.pe-7s-gift
+                    %b Date of Birth:
+                    6 January 1987
+                  %li.clearfix
+                    %i.pe-7s-map-marker
+                    %b Address:
+                    Inox Box 1546, Sollins.
+                  %li.clearfix
+                    %i.pe-7s-note2
+                    %b Languages:
+                    English, Australian
+          / /row
+/ /First page

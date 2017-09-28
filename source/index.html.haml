@@ -1,11 +1,122 @@
 ---
-title: Welcome to Middleman
+title: Elizabeth Simonian
 ---
 
-.welcome
-  .logo
-    = image_tag "middleman-logo.svg"
-  %h1 Middleman is Running with Gulp!
-  .today
-  %p.doc
-    = link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank"
+%body{"data-spy" => "scroll", "data-target" => "#nav-top"}
+  / Hides the complete page until window loads
+  .cover
+  %header
+    / Main company header
+    %nav.navbar.navbar-default
+      .container
+        .row
+          .col-xs-3
+            / START LOGO
+            .logo
+              %a{:href => "index.html"} Ultra
+            / END LOGO
+          .col-xs-9
+            .navbar-header
+              %button.navbar-toggle{"data-target" => "#nav-top", "data-toggle" => "collapse", :type => "button"}
+                %span.sr-only Toggle navigation
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+              / Top navigation buttons, visible only in extra small mode
+              %a.visible-xs.bb-nav-prev.navbar-brand.navbar-brand-pagination{:href => "#"}
+                %i.fa.fa-angle-left
+              %a.visible-xs.bb-nav-next.navbar-brand.navbar-brand-pagination{:href => "#"}
+                %i.fa.fa-angle-right
+              / /Top navigation buttons
+            #nav-top.collapse.navbar-collapse
+              %ul#menu.nav.navbar-nav.navbar-right
+                %li
+                  %a{"data-page" => "1", :href => "#"} About
+                %li
+                  %a{"data-page" => "2", :href => "#"} Skills
+                %li
+                  //%a{"data-page" => "3", :href => "#"} Education
+                %li
+                  %a{"data-page" => "3", :href => "#"} Experience
+                %li
+                  %a{"data-page" => "4", :href => "#"} Portfolio
+                %li
+                  %a{"data-page" => "5", :href => "#"} Contact
+            / /navbar-collapse
+        / /row
+      / /container
+    / /nav
+  / container
+  .container-fluid
+    .bb-custom-wrapper
+      #bb-bookblock.bb-bookblock
+        /
+          bb-item represents a page in the resume.
+          add or remove bb-item divs to add or remove pages.
+        = partial "partials/page1"
+        / skill
+        = partial "partials/page2"
+        / /skill
+        / Education
+        /= partial "partials/page3"
+        / /Education
+        / Experience
+        = partial "partials/page4"
+        / /Experience
+        / portfolio
+        = partial "partials/page5"
+        / /portfolio
+        / contact
+        #page-6.bb-item
+          #portfolio.bb-custom-side
+            .container
+              .row
+                .col-sm-12
+                  .card-box
+                    .row
+                      .col-md-12
+                        .section-title
+                          %h2 contact me
+                          .title-border
+                    / /row
+                    .row
+                      .col-md-12.col-xs-12
+                        / START contect
+                        .contact-form
+                          %form#contact-form{:method => "post"}
+                            .row
+                              .form-group.col-md-4
+                                %input#first-name.form-control{:name => "name", :placeholder => "Name", :required => "required", :type => "text"}/
+                              .form-group.col-md-4
+                                %input#email.form-control{:name => "email", :placeholder => "Email", :required => "required", :type => "email"}/
+                              .form-group.col-md-4
+                                %input#contect.form-control{:name => "name", :placeholder => "Phone Contect", :required => "required", :type => "text"}/
+                              .form-group.col-md-12
+                                %textarea#description.form-control{:name => "message", :placeholder => "Your Message", :required => "required", :rows => "6"}
+                              .form-group.col-md-12.text-center
+                                .actions
+                                  %input#submitButton.btn.btn-custom{:name => "submit", :title => "Submit Your Message!", :type => "submit", :value => "Submit now"}/
+                    / end row
+                    .row
+                      .col-sm-12.text-center
+                        .social-links.header-links.footer-p-t-20
+                          %ul
+                            %li
+                              %a{:href => ""}
+                                %i.fa.fa-facebook.facebook
+                            %li
+                              %a{:href => ""}
+                                %i.fa.fa-twitter.twitter
+                            %li
+                              %a{:href => ""}
+                                %i.fa.fa-google-plus.google-plus
+                            %li
+                              %a{:href => ""}
+                                %i.fa.fa-dribbble.dribbble
+                        %p.copyright © 2017.
+                    / /row
+        / /page-6
+        / /contact
+      / /bb-bookblock
+    / /bb-custom-wrapper
+  / /container

@@ -1,0 +1,22 @@
+.btn-custom, .btn-custom:hover {
+  border: 1px solid #2196f3; }
+
+.pace, .title-border::before, .title-border::after {
+  border: 2px solid #2196f3; }
+
+.navbar, .title-border, .rs-round, .time-line:before, .btn-custom, .btn-custom:hover, .pace .pace-progress {
+  background-color: #2196f3; }
+
+.presonal-inform i, .skill i, .rex-item h3, #work .lrs-list-protfolio .fil-cat.active,
+#work .lrs-projects .lrs-project .lrs-project-content, .section-title h2, .pace .pace-progress {
+  color: #2196f3; }
+
+#work .lrs-list-protfolio .fil-cat.active {
+  border-bottom: 2px solid #2196f3; }
+
+.form-control:focus {
+  border-color: #2196f3;
+  -webkit-box-shadow: #2196f3;
+          box-shadow: #2196f3; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJsdWUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsMEJBQTBCLEVBQUU7O0FBRTlCO0VBQ0UsMEJBQTBCLEVBQUU7O0FBRTlCO0VBQ0UsMEJBQTBCLEVBQUU7O0FBRTlCOztFQUVFLGVBQWUsRUFBRTs7QUFFbkI7RUFDRSxpQ0FBaUMsRUFBRTs7QUFFckM7RUFDRSxzQkFBc0I7RUFDdEIsNEJBQW9CO1VBQXBCLG9CQUFvQixFQUFFIiwiZmlsZSI6ImNvbG9ycy9ibHVlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4tY3VzdG9tLCAuYnRuLWN1c3RvbTpob3ZlciB7XG4gIGJvcmRlcjogMXB4IHNvbGlkICMyMTk2ZjM7IH1cblxuLnBhY2UsIC50aXRsZS1ib3JkZXI6OmJlZm9yZSwgLnRpdGxlLWJvcmRlcjo6YWZ0ZXIge1xuICBib3JkZXI6IDJweCBzb2xpZCAjMjE5NmYzOyB9XG5cbi5uYXZiYXIsIC50aXRsZS1ib3JkZXIsIC5ycy1yb3VuZCwgLnRpbWUtbGluZTpiZWZvcmUsIC5idG4tY3VzdG9tLCAuYnRuLWN1c3RvbTpob3ZlciwgLnBhY2UgLnBhY2UtcHJvZ3Jlc3Mge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjE5NmYzOyB9XG5cbi5wcmVzb25hbC1pbmZvcm0gaSwgLnNraWxsIGksIC5yZXgtaXRlbSBoMywgI3dvcmsgLmxycy1saXN0LXByb3Rmb2xpbyAuZmlsLWNhdC5hY3RpdmUsXG4jd29yayAubHJzLXByb2plY3RzIC5scnMtcHJvamVjdCAubHJzLXByb2plY3QtY29udGVudCwgLnNlY3Rpb24tdGl0bGUgaDIsIC5wYWNlIC5wYWNlLXByb2dyZXNzIHtcbiAgY29sb3I6ICMyMTk2ZjM7IH1cblxuI3dvcmsgLmxycy1saXN0LXByb3Rmb2xpbyAuZmlsLWNhdC5hY3RpdmUge1xuICBib3JkZXItYm90dG9tOiAycHggc29saWQgIzIxOTZmMzsgfVxuXG4uZm9ybS1jb250cm9sOmZvY3VzIHtcbiAgYm9yZGVyLWNvbG9yOiAjMjE5NmYzO1xuICBib3gtc2hhZG93OiAjMjE5NmYzOyB9XG4iXX0= */

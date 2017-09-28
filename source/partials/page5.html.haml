@@ -1,0 +1,88 @@
+#page-5.bb-item
+  .bb-custom-side
+    .container
+      .row
+        .col-sm-12
+          #work.card-box
+            .row
+              .col-md-12.col-xs-12
+                .section-title
+                  %h2 Portfolio
+                  .title-border
+            / end row
+            .row
+              .col-xs-12
+                .lrs-divider-3
+                %ul#filter.list-unstyled.list-inline.lrs-list-protfolio
+                  %li.active.fil-cat{"data-rel" => "all"} All
+                  %li.fil-cat{"data-rel" => "web"} Html / CSS
+                  %li.fil-cat{"data-rel" => "js"} JavaScript
+                  %li.fil-cat{"data-rel" => "wordpress"} Wordpress
+              .col-md-12.col-xs-12
+                .lrs-projects
+                  .lrs-project.scale-anm.web.js.all{"data-target" => "#one", "data-toggle" => "modal"}
+                    .lrs-project-image
+                      = image_tag '1.jpg', { :class => 'img-responsive img', :alt => 'Resume / CV' }
+                      -#%img.img-responsive{:alt => "Resume / CV", :src => "images/1.jpg"}/
+                      .lrs-project-content
+                        %h6.lrs-project-title Lorem ipsum dolor
+                        %p.lrs-project-client
+                          %b GOOGLE
+                  .lrs-project.scale-anm.js.html.all{"data-target" => "#one", "data-toggle" => "modal"}
+                    .lrs-project-image
+                      = image_tag '2.jpg', { :class => 'img-responsive img', :alt => 'Resume / CV' } 
+                      .lrs-project-content
+                        %h6.lrs-project-title Lorem ipsum dolor
+                        %p.lrs-project-client
+                          %b YAHOO
+                  .lrs-project.scale-anm.js.web.all{"data-target" => "#one", "data-toggle" => "modal"}
+                    .lrs-project-image
+                      = image_tag '3.jpg', { :class => 'img-responsive img', :alt => 'Resume / CV' } 
+                      .lrs-project-content
+                        %h6.lrs-project-title Lorem ipsum dolor
+                        %p.lrs-project-client
+                          %b MICROSOFT
+                  .lrs-project.scale-anm.web.all{"data-target" => "#one", "data-toggle" => "modal"}
+                    .lrs-project-image
+                      = image_tag '9.jpg', { :class => 'img-responsive img', :alt => 'Resume / CV' } 
+                      .lrs-project-content
+                        %h6.lrs-project-title Lorem ipsum dolor
+                        %p.lrs-project-client
+                          %b FACEBOOK
+                  .lrs-project.scale-anm.js.wordpress.all{"data-target" => "#one", "data-toggle" => "modal"}
+                    .lrs-project-image
+                      = image_tag '4.jpg', { :class => 'img-responsive img', :alt => 'Resume / CV' } 
+                      .lrs-project-content
+                        %h6.lrs-project-title Lorem ipsum dolor
+                        %p.lrs-project-client
+                          %b INTEL
+                  .lrs-project.scale-anm.web.all{"data-target" => "#one", "data-toggle" => "modal"}
+                    .lrs-project-image
+                      = image_tag '5.jpg', { :class => 'img-responsive img', :alt => 'Resume / CV' } 
+                      .lrs-project-content
+                        %h6.lrs-project-title Lorem ipsum dolor
+                        %p.lrs-project-client
+                          %b FACEBOOK
+                  .lrs-project.scale-anm.web.wordpress.all{"data-target" => "#one", "data-toggle" => "modal"}
+                    .lrs-project-image
+                      = image_tag '6.jpg', { :class => 'img-responsive img', :alt => 'Resume / CV' } 
+                      .lrs-project-content
+                        %h6.lrs-project-title Lorem ipsum dolor
+                        %p.lrs-project-client
+                          %b FACEBOOK
+                  .lrs-project.scale-anm.web.html.all{"data-target" => "#one", "data-toggle" => "modal"}
+                    .lrs-project-image
+                      = image_tag '7.jpg', { :class => 'img-responsive img', :alt => 'Resume / CV' } 
+                      .lrs-project-content
+                        %h6.lrs-project-title Lorem ipsum dolor
+                        %p.lrs-project-client
+                          %b FACEBOOK
+                  .lrs-project.scale-anm.web.wordpress.all{"data-target" => "#one", "data-toggle" => "modal"}
+                    .lrs-project-image
+                      = image_tag '8.jpg', { :class => 'img-responsive img', :alt => 'Resume / CV' } 
+                      .lrs-project-content
+                        %h6.lrs-project-title Lorem ipsum dolor
+                        %p.lrs-project-client
+                          %b FACEBOOK
+            / end row
+/ /page-5

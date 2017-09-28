@@ -1,0 +1,22 @@
+.btn-custom, .btn-custom:hover {
+  border: 1px solid #66bb6a; }
+
+.pace, .title-border::before, .title-border::after {
+  border: 2px solid #66bb6a; }
+
+.navbar, .title-border, .rs-round, .time-line:before, .btn-custom, .btn-custom:hover, .pace .pace-progress {
+  background-color: #66bb6a; }
+
+.presonal-inform i, .skill i, .rex-item h3, #work .lrs-list-protfolio .fil-cat.active,
+#work .lrs-projects .lrs-project .lrs-project-content, .section-title h2, .pace .pace-progress {
+  color: #66bb6a; }
+
+#work .lrs-list-protfolio .fil-cat.active {
+  border-bottom: 2px solid #66bb6a; }
+
+.form-control:focus {
+  border-color: #66bb6a;
+  -webkit-box-shadow: #66bb6a;
+          box-shadow: #66bb6a; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdyZWVuLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDBCQUEwQixFQUFFOztBQUU5QjtFQUNFLDBCQUEwQixFQUFFOztBQUU5QjtFQUNFLDBCQUEwQixFQUFFOztBQUU5Qjs7RUFFRSxlQUFlLEVBQUU7O0FBRW5CO0VBQ0UsaUNBQWlDLEVBQUU7O0FBRXJDO0VBQ0Usc0JBQXNCO0VBQ3RCLDRCQUFvQjtVQUFwQixvQkFBb0IsRUFBRSIsImZpbGUiOiJjb2xvcnMvZ3JlZW4uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJ0bi1jdXN0b20sIC5idG4tY3VzdG9tOmhvdmVyIHtcbiAgYm9yZGVyOiAxcHggc29saWQgIzY2YmI2YTsgfVxuXG4ucGFjZSwgLnRpdGxlLWJvcmRlcjo6YmVmb3JlLCAudGl0bGUtYm9yZGVyOjphZnRlciB7XG4gIGJvcmRlcjogMnB4IHNvbGlkICM2NmJiNmE7IH1cblxuLm5hdmJhciwgLnRpdGxlLWJvcmRlciwgLnJzLXJvdW5kLCAudGltZS1saW5lOmJlZm9yZSwgLmJ0bi1jdXN0b20sIC5idG4tY3VzdG9tOmhvdmVyLCAucGFjZSAucGFjZS1wcm9ncmVzcyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM2NmJiNmE7IH1cblxuLnByZXNvbmFsLWluZm9ybSBpLCAuc2tpbGwgaSwgLnJleC1pdGVtIGgzLCAjd29yayAubHJzLWxpc3QtcHJvdGZvbGlvIC5maWwtY2F0LmFjdGl2ZSxcbiN3b3JrIC5scnMtcHJvamVjdHMgLmxycy1wcm9qZWN0IC5scnMtcHJvamVjdC1jb250ZW50LCAuc2VjdGlvbi10aXRsZSBoMiwgLnBhY2UgLnBhY2UtcHJvZ3Jlc3Mge1xuICBjb2xvcjogIzY2YmI2YTsgfVxuXG4jd29yayAubHJzLWxpc3QtcHJvdGZvbGlvIC5maWwtY2F0LmFjdGl2ZSB7XG4gIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjNjZiYjZhOyB9XG5cbi5mb3JtLWNvbnRyb2w6Zm9jdXMge1xuICBib3JkZXItY29sb3I6ICM2NmJiNmE7XG4gIGJveC1zaGFkb3c6ICM2NmJiNmE7IH1cbiJdfQ== */

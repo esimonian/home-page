@@ -1,0 +1,22 @@
+.btn-custom, .btn-custom:hover {
+  border: 1px solid #F08080; }
+
+.pace, .title-border::before, .title-border::after {
+  border: 2px solid #F08080; }
+
+.navbar, .title-border, .rs-round, .time-line:before, .btn-custom, .btn-custom:hover, .pace .pace-progress {
+  background-color: #F08080; }
+
+.presonal-inform i, .skill i, .rex-item h3, #work .lrs-list-protfolio .fil-cat.active,
+#work .lrs-projects .lrs-project .lrs-project-content, .section-title h2, .pace .pace-progress {
+  color: #F08080; }
+
+#work .lrs-list-protfolio .fil-cat.active {
+  border-bottom: 2px solid #F08080; }
+
+.form-control:focus {
+  border-color: #F08080;
+  -webkit-box-shadow: #F08080;
+          box-shadow: #F08080; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlZC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwwQkFBMEIsRUFBRTs7QUFFOUI7RUFDRSwwQkFBMEIsRUFBRTs7QUFFOUI7RUFDRSwwQkFBMEIsRUFBRTs7QUFFOUI7O0VBRUUsZUFBZSxFQUFFOztBQUVuQjtFQUNFLGlDQUFpQyxFQUFFOztBQUVyQztFQUNFLHNCQUFzQjtFQUN0Qiw0QkFBb0I7VUFBcEIsb0JBQW9CLEVBQUUiLCJmaWxlIjoiY29sb3JzL3JlZC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYnRuLWN1c3RvbSwgLmJ0bi1jdXN0b206aG92ZXIge1xuICBib3JkZXI6IDFweCBzb2xpZCAjRjA4MDgwOyB9XG5cbi5wYWNlLCAudGl0bGUtYm9yZGVyOjpiZWZvcmUsIC50aXRsZS1ib3JkZXI6OmFmdGVyIHtcbiAgYm9yZGVyOiAycHggc29saWQgI0YwODA4MDsgfVxuXG4ubmF2YmFyLCAudGl0bGUtYm9yZGVyLCAucnMtcm91bmQsIC50aW1lLWxpbmU6YmVmb3JlLCAuYnRuLWN1c3RvbSwgLmJ0bi1jdXN0b206aG92ZXIsIC5wYWNlIC5wYWNlLXByb2dyZXNzIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI0YwODA4MDsgfVxuXG4ucHJlc29uYWwtaW5mb3JtIGksIC5za2lsbCBpLCAucmV4LWl0ZW0gaDMsICN3b3JrIC5scnMtbGlzdC1wcm90Zm9saW8gLmZpbC1jYXQuYWN0aXZlLFxuI3dvcmsgLmxycy1wcm9qZWN0cyAubHJzLXByb2plY3QgLmxycy1wcm9qZWN0LWNvbnRlbnQsIC5zZWN0aW9uLXRpdGxlIGgyLCAucGFjZSAucGFjZS1wcm9ncmVzcyB7XG4gIGNvbG9yOiAjRjA4MDgwOyB9XG5cbiN3b3JrIC5scnMtbGlzdC1wcm90Zm9saW8gLmZpbC1jYXQuYWN0aXZlIHtcbiAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkICNGMDgwODA7IH1cblxuLmZvcm0tY29udHJvbDpmb2N1cyB7XG4gIGJvcmRlci1jb2xvcjogI0YwODA4MDtcbiAgYm94LXNoYWRvdzogI0YwODA4MDsgfVxuIl19 */
