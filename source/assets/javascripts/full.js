@@ -111,7 +111,7 @@ this.activeTarget=b,this.clear();var c=this.selector+'[data-target="'+b+'"],'+th
     shadows : true,
     // opacity value for the "shadow" on both sides (when the flipping page is over it)
     // value : 0.1 - 1
-    shadowSides : 0.2,
+    shadowSides : 0.1,
     // opacity value for the "shadow" on the flipping page (while it is flipping)
     // value : 0.1 - 1
     shadowFlip : 0.1,
