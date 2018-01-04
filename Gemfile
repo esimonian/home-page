@@ -22,13 +22,15 @@ gem "middleman-pry", "~> 1.0"
 # gem "middleman-search_engine_sitemap", "~> 1.4"
 
 # https://github.com/fredjean/middleman-s3_sync
-# gem "middleman-s3_sync", "~> 4.0"
+gem "middleman-s3_sync", "~> 4.0"
 
 # https://github.com/brigade/haml-lint
 gem "haml_lint"
 
 # https://github.com/brigade/scss-lint
 gem "scss_lint"
+
+gem "dotenv"
 
 group :development do
   gem "rspec", "~> 3.6"
