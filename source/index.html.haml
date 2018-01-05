@@ -13,7 +13,7 @@ title: Elizabeth Simonian
           .col-xs-3
             / START LOGO
             .logo
-              %a{:href => "index.html"} Ultra
+              %a{:href => "index.html"} ES
             / END LOGO
           .col-xs-9
             .navbar-header
@@ -100,20 +100,8 @@ title: Elizabeth Simonian
                     .row
                       .col-sm-12.text-center
                         .social-links.header-links.footer-p-t-20
-                          %ul
-                            %li
-                              %a{:href => ""}
-                                %i.fa.fa-facebook.facebook
-                            %li
-                              %a{:href => ""}
-                                %i.fa.fa-twitter.twitter
-                            %li
-                              %a{:href => ""}
-                                %i.fa.fa-google-plus.google-plus
-                            %li
-                              %a{:href => ""}
-                                %i.fa.fa-dribbble.dribbble
-                        %p.copyright © 2017.
+                          = partial "partials/social"
+                        %p.copyright © Elizabeth Simonian 2017.
                     / /row
         / /page-6
         / /contact
