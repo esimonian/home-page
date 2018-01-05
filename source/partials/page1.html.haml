@@ -7,7 +7,7 @@
           .row
             .col-xs-12
               .header-text.text-center
-                = image_tag 'dp.jpg', { :class => 'img-circle img', :alt => '' }
+                = image_tag 'headshot.jpg', { :class => 'img-circle img', :alt => '' }
                 %h2 Elizabeth Simonian
                 %p Developer
                 .social-links.header-links
@@ -29,7 +29,7 @@
             .col-md-6.col-md-offset-1
               .introduce
                 %h2.title About Me
-                %p Lorem ipsum
+                %p #{data.site.about_me}
             .col-md-5.col-xs-12
               .presonal-inform
                 %ul.list-unstyled

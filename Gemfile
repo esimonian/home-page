@@ -23,6 +23,7 @@ gem "middleman-pry", "~> 1.0"
 
 # https://github.com/fredjean/middleman-s3_sync
 gem "middleman-s3_sync", "~> 4.0"
+gem 'mime-types'
 
 # https://github.com/brigade/haml-lint
 gem "haml_lint"
