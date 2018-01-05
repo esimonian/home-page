@@ -16,42 +16,16 @@
             / /row
             .time-line
               / Right Services
-              .row
-                .col-sm-6.pull-right.rex-right
-                  .colam
-                    .rs-round
-                      %i.pe-7s-film
-                    .rex-item
-                      %h3 2017 - Present
-                      %h4 Systems Engineer - Lightstorm Entertainment
-                      %ul
-                        %li Install, configure, test and maintain operating systems, application software and system management tools
-                        %li Monitor and test application performance for potential bottlenecks, identify possible solutions, and work with developers to implement those fixes
-                        %li Write and maintain custom scripts to increase system efficiency and lower the human intervention time on any tasks
-              / /row
-              / Left Services
-              .row
-                .col-sm-6.pull-left.rex-left
-                  .colam
-                    .rs-round.second
-                      %i.pe-7s-door-lock
-                    .rex-item
-                      %h3 2017 - Present
-                      %h4 Mentor - Udacity
-                      %p Provided support and feed back to students enrolled in the Front End Developer and React Nanodegrees
-              / /row
-              / Right Services
-              .row
-                .col-sm-6.pull-right.rex-right
-                  .colam-tird
-                    .rs-round
-                      %i.pe-7s-rocket
-                    .rex-item
-                      %h3 2014-2017
-                      %h4 Freelance Web Developer
-                      %ul
-                        %li Write well designed, testable, efficient code by using best software development practices
-                        %li Create and maintain software documentation
+              - data.jobs.each do |job|
+                .row
+                  %div{class: "col-sm-6 pull-#{job.align} rex-#{job.align}"}
+                    .colam
+                      .rs-round
+                        %i{class: "#{job.icon}"}
+                      .rex-item
+                        %h3 #{job.dates}
+                        %h4 #{job.title} - #{job.company}
+                        %p #{job.description}
               / /row
               .row
                 .col-sm-12.resume-button

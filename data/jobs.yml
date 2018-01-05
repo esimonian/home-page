@@ -1,0 +1,30 @@
+-
+  title: Systems Engineer
+  company: Lightstorm Entertainment
+  dates: '2017 - Present'
+  icon: pe-7s-film
+  align: right
+  description: >
+   Architected high level solutions to increase system uptime and redundancy.
+   Developed sophisticated virtualization and automation infrastructure to decrease
+   build times and improve end user reliability and performance.
+
+-
+  title: Mentor
+  company: Udacity
+  dates: '2017 - Present'
+  icon: pe-7s-film
+  align: left
+  description: >
+   Provided support and feedback to students enrolled in the Front End Developer
+   and React Nanodegrees. Consistently maintained high levels of student satisfaction and progress
+
+-
+  title: Freelance Web Developer
+  company:
+  dates: '2014 - 2017'
+  icon: pe-7s-film
+  align: right
+  description: >
+   Collaborated with clients and designers to create easy to use, beautifully designed,
+   modern websites. Maintained high quality by adhering to latest industry best practices.

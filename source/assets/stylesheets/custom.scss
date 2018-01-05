@@ -2,3 +2,9 @@
   display: flex;
   justify-content: center;
 }
+
+.pull-left.rex-left .rs-round{
+  right: 0 !important;
+  left: auto !important;
+  margin-right: -60px !important;
+}
